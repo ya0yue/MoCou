@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SimpleChat</string>
+    <string name="title_Chat">Chat</string>
+    <string name="title_Contacts">Contacts</string>
+    <string name="title_Me">Me</string>
+    <string name="title_Dialog">Dialog</string>
+    <string name="title_AddContact">Add Contact</string>
+    <string name="title_DetialContact">Contact Detials</string>
+    <string name="server_url">http://10.0.2.2:8080</string>
+    <string name="connect">Connected</string>
+    <string name="disconnect">Disconnected, Please check your internet connection</string>
+    <string name="error_connect">Failed to connect</string>
+    <string name="preference_file_key">com.example.simplechat.mocou.PREFERENCE_FILE_KEY</string>
+    <string name="is_login">is_login</string>
+    <string name="login_username">login_username</string>
+</resources>

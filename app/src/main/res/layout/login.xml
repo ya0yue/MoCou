@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="256dp">
+
+        <ImageView
+            android:id="@+id/login_icon"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@mipmap/owl_192" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="MoCou"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="64sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <EditText
+            android:id="@+id/login_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:hint="User ID"
+            android:inputType="textPersonName"
+            android:padding="4dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/login_PW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="4dp"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_button"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="86dp"
+        android:layout_marginRight="86dp"
+        android:layout_marginTop="32dp"
+        android:elevation="19dp"
+        android:text="LOG IN"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:background="@color/light_brown" />
+
+</LinearLayout>
